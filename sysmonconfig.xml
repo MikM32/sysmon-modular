@@ -1333,6 +1333,10 @@
           <TargetImage condition="contains all">C:\Users\;\AppData\Local\Programs\Microsoft VS Code\Code.exe</TargetImage>
           <GrantedAccess condition="is">0x1401</GrantedAccess>
         </Rule>
+        <Rule groupRelation="and">
+          <SourceImage condition="end with">\Microsoft VS Code\Code.exe</SourceImage>
+          <GrantedAccess condition="is">0x1410</GrantedAccess>
+        </Rule>
         <SourceImage condition="is">C:\Program Files (x86)\VMware\VMWare Player\vmware-authd.exe</SourceImage>
         <SourceImage condition="is">C:\Program Files (x86)\VMware\VMware Workstation\vmware-authd.exe</SourceImage>
         <SourceImage condition="is">C:\Program Files\WinZip\FAHWindow64.exe</SourceImage>
